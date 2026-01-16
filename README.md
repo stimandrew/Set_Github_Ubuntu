@@ -32,3 +32,11 @@ The minimum required scopes are 'repo', 'read:org', 'workflow'.
 ! Authentication credentials saved in plain text
 ✓ Logged in as stimandrew
 ```
+Обновить статус
+```
+gh auth status
+```
+Добавить права на добавление релизов
+```
+gh auth refresh -s repo
+```
