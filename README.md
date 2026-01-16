@@ -1,29 +1,29 @@
 # Set_Github_Ubuntu
-Установить git
+### Установить git
 ```
 sudo apt install git
 ```
-Установить GitHub CLI
+### Установить GitHub CLI
 ```
 sudo apt install gh
 ```
-Авторизация GitHub CLI
+### Авторизация GitHub CLI
 ```
 gh auth login
 ```
-Обновить статус
+### Обновить статус
 ```
 gh auth status
 ```
-Добавить права на добавление релизов
+### Добавить права на добавление релизов
 ```
 gh auth refresh -s repo
 ```
-Клонирование существующего репозитория
+### Клонирование существующего репозитория
 ```
 git clone https://github.com/[user]/[repository].git
 ```
-Переходим в папку репозитория
+### Переходим в папку репозитория
 ```
 cd [repository]
 ```
@@ -39,4 +39,8 @@ The minimum required scopes are 'repo', 'read:org', 'workflow'.
 ✓ Configured git protocol
 ! Authentication credentials saved in plain text
 ✓ Logged in as stimandrew
+```
+### Создание релиза через GitHub CLI с прикрепленными файлами
+```
+gh release create v1.0.0 --title "Release v1.0.0" --notes "Описание" dist/*.zip
 ```
