@@ -19,7 +19,7 @@ git clone https://github.com/[user]/[repository].git
 ```
 cd [repository]
 ```
-`
+```
 ? What account do you want to log into? GitHub.com
 ? What is your preferred protocol for Git operations on this host? HTTPS
 ? Authenticate Git with your GitHub credentials? Yes
@@ -31,4 +31,4 @@ The minimum required scopes are 'repo', 'read:org', 'workflow'.
 ✓ Configured git protocol
 ! Authentication credentials saved in plain text
 ✓ Logged in as stimandrew
-`
+```
