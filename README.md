@@ -1,5 +1,9 @@
 # Set_Github_Ubuntu
-Установим git через терминал
+Установить git
 ```
 sudo apt install git
+```
+Установить GitHub CLI
+```
+sudo apt install gh
 ```
