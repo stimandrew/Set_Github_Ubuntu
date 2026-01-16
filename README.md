@@ -11,6 +11,14 @@ sudo apt install gh
 ```
 gh auth login
 ```
+Обновить статус
+```
+gh auth status
+```
+Добавить права на добавление релизов
+```
+gh auth refresh -s repo
+```
 Клонирование существующего репозитория
 ```
 git clone https://github.com/[user]/[repository].git
@@ -31,12 +39,4 @@ The minimum required scopes are 'repo', 'read:org', 'workflow'.
 ✓ Configured git protocol
 ! Authentication credentials saved in plain text
 ✓ Logged in as stimandrew
-```
-Обновить статус
-```
-gh auth status
-```
-Добавить права на добавление релизов
-```
-gh auth refresh -s repo
 ```
