@@ -1,4 +1,4 @@
-# Set_Github_Ubuntu
+# Установка и настройка Github на Ubuntu с возможностью релизов и прикрепление больших файлов
 ### Установить git
 ```
 sudo apt install git
