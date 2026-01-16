@@ -7,3 +7,11 @@ sudo apt install git
 ```
 sudo apt install gh
 ```
+Клонирование существующего репозитория
+```
+git clone https://github.com/[user]/[repository].git
+```
+Переходим в папку репозитория
+```
+cd [repository]
+```
